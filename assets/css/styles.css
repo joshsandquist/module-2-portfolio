@@ -1,0 +1,15 @@
+:root { --dark: rgb(50, 50, 50);
+        --accent: rgb(85, 220, 170);
+        --light-text: rgb(255, 255, 255);
+        --dark-text: rgb(0, 0, 0);
+
+}
+body {
+    background-color: var(--dark)
+}
+
+nav {
+    height: 75px;
+    background-color: var(--accent);
+    color: var(--dark);
+}
