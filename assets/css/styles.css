@@ -52,9 +52,6 @@ nav a:hover {
  border: solid red;
  margin-top: 2%;
 }
-.about h2 {
-}
-
 .about img {
     width: 100px;
     float: left;
@@ -67,18 +64,33 @@ nav a:hover {
     padding: 5px;
 }
 .cards-h2 {
-    margin: 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 .cards {
     border: solid red;
     margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-between;
+
+    
 }
 .card {
-border: solid blue;
+border: solid;
 background-color: var(--accent);
-height: 100px;
-width: 300px;
+border-radius: 10px;
+height: 150px;
+width: 100%;
+text-align: center;
+margin: 50px;
+}
+
+.first {
+    flex: 1 0 80%;
+}
+@media screen and (min-width: 982px) {
+    .card {
+        width: 40%
+    }
 }
