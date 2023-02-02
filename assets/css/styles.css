@@ -8,8 +8,77 @@ body {
     background-color: var(--dark)
 }
 
+h1 {
+    font-size: 160%;
+}
+
+h2 {
+    color: var(--accent);
+    text-shadow: 5px 5px 5px black;
+}
+
+h3 {
+    color: var(--dark-text);
+}
+
+p {
+    color: var(--light-text);
+}
 nav {
     height: 75px;
     background-color: var(--accent);
     color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+nav li {
+    display: inline;
+    padding: 5px;
+    font-size: 18px;
+}
+
+nav a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.about {
+ border: solid red;
+ margin-top: 2%;
+}
+.about h2 {
+}
+
+.about img {
+    width: 100px;
+    float: left;
+    border: var(--accent) solid 2px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.about p {
+    padding: 5px;
+}
+.cards-h2 {
+    margin: 10px;
+}
+.cards {
+    border: solid red;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+.card {
+border: solid blue;
+background-color: var(--accent);
+height: 100px;
+width: 300px;
 }
