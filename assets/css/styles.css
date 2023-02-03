@@ -54,7 +54,6 @@ nav a:hover {
 }
 
 .about {
- border: solid red;
  margin-top: 2%;
 }
 .about img {
@@ -73,7 +72,6 @@ nav a:hover {
     text-align: center;
 }
 .cards {
-    border: solid red;
     margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -86,22 +84,41 @@ border: solid;
 background-color: var(--dark);
 border: var(--accent) dashed 3px;
 border-radius: 10px;
-height: 170px;
+height: 250px;
 width: 100%;
 text-align: center;
-margin: 50px;
+margin: 40px 50px;
 }
+
 
 .card img {
     margin-top: -2%;
     width: 100%;
-    height: 88%;
+    height: 92%;
     border-radius: 10px;
 }
 
 .first {
     flex: 1 1 80%;
 }
+
+footer h2 {
+    text-align: center;
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.contact li {
+    display: inline;
+    padding: 10px;
+}
+
+
 @media screen and (min-width: 988px) {
     .card {
         width: 35%;
