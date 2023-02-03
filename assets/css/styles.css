@@ -18,7 +18,12 @@ h2 {
 }
 
 h3 {
-    color: var(--dark-text);
+    color: var(--light-text);
+    position: relative;
+    top: -12px;
+    border: var(--accent) solid 2px;
+    border-radius: 10px;
+    background-color: var(--dark);
 }
 
 p {
@@ -78,19 +83,27 @@ nav a:hover {
 }
 .card {
 border: solid;
-background-color: var(--accent);
+background-color: var(--dark);
+border: var(--accent) dashed 3px;
 border-radius: 10px;
-height: 150px;
+height: 170px;
 width: 100%;
 text-align: center;
 margin: 50px;
 }
 
-.first {
-    flex: 1 0 80%;
+.card img {
+    margin-top: -2%;
+    width: 100%;
+    height: 88%;
+    border-radius: 10px;
 }
-@media screen and (min-width: 982px) {
+
+.first {
+    flex: 1 1 80%;
+}
+@media screen and (min-width: 988px) {
     .card {
-        width: 40%
+        width: 35%;
     }
 }
