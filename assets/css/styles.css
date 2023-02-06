@@ -53,26 +53,27 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.about {
- margin-top: 2%;
+#about {
+margin: 5%;
 }
-.about img {
+#about img {
     width: 100px;
     float: left;
     border: var(--accent) solid 2px;
     border-radius: 10px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
-.about p {
+#about p {
     padding: 5px;
 }
 .cards-h2 {
     margin-top: 50px;
     text-align: center;
 }
-.cards {
-    margin-top: 2%;
+#cards {
+    margin: 6%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -90,6 +91,9 @@ text-align: center;
 margin: 40px 50px;
 }
 
+.card:hover {
+    box-shadow: var(--accent) 0px 5px 10px;
+}
 
 .card img {
     margin-top: -2%;
@@ -107,13 +111,19 @@ footer h2 {
     
 }
 
-.contact {
+#contact {
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--accent);
+    height: 75px;
 }
 
-.contact li {
+footer h2 {
+    margin-bottom: 50px;
+}
+#contact li {
     display: inline;
     padding: 10px;
 }
@@ -122,5 +132,16 @@ footer h2 {
 @media screen and (min-width: 988px) {
     .card {
         width: 35%;
+    }
+    .first {
+       margin-left: 15%;
+       margin-right: 15%;
+    }
+    nav {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+
     }
 }
