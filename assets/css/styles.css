@@ -1,3 +1,4 @@
+/* Variables created for color scheme*/
 :root { --dark: rgb(50, 50, 50);
         --accent: rgb(85, 220, 170);
         --light-text: rgb(255, 255, 255);
@@ -29,6 +30,7 @@ h3 {
 p {
     color: var(--light-text);
 }
+/* Nav bar displays in column view at smaller screen sizes*/
 nav {
     height: 75px;
     background-color: var(--accent);
@@ -72,6 +74,7 @@ margin: 5%;
     margin-top: 50px;
     text-align: center;
 }
+/* made main content a flexbox*/
 #cards {
     margin: 6%;
     display: flex;
@@ -114,7 +117,7 @@ footer h2 {
 #contact {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:center;
     margin-top: 20px;
     background-color: var(--accent);
     height: 75px;
@@ -123,12 +126,14 @@ footer h2 {
 footer h2 {
     margin-bottom: 50px;
 }
+
 #contact li {
     display: inline;
     padding: 10px;
 }
 
-
+/* added media queries to make the nav bar shift as well as to make project
+cards fit acceptance criteria*/
 @media screen and (min-width: 988px) {
     .card {
         width: 35%;
