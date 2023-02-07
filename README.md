@@ -18,3 +18,4 @@ This project used HTML and CSS in order to build a responsive portfolio website.
 
 ## Web link
 
+https://joshsandquist.github.io/module-2-portfolio/
